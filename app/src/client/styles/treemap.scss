@@ -1,0 +1,28 @@
+.rv-treemap {
+  font-size: 10px;
+  position: relative;
+}
+
+.rv-treemap__leaf {
+  position: absolute;
+  overflow: hidden;
+  cursor: pointer;
+  padding: 1px;
+  border: 1px solid #F0F0F0;
+}
+
+.rv-treemap__leaf__content {
+  padding: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rv-treemap__leaf:hover {
+  padding: 0px;
+  border: 2px solid black !important;
+}
+
+.rangeslider__label{
+   margin-top:20px;
+}
+

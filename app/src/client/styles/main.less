@@ -1,0 +1,118 @@
+@bootstrapLess: "./../../../node_modules/bootstrap/less";
+
+// Core variables and mixins
+@import "@{bootstrapLess}/variables.less";
+@import "@{bootstrapLess}/mixins.less";
+
+// Reset and dependencies
+@import "@{bootstrapLess}/normalize.less";
+@import "@{bootstrapLess}/print.less";
+@import "@{bootstrapLess}/glyphicons.less";
+
+// Core CSS
+@import "@{bootstrapLess}/scaffolding.less";
+@import "@{bootstrapLess}/type.less";
+@import "@{bootstrapLess}/code.less";
+@import "@{bootstrapLess}/grid.less";
+@import "@{bootstrapLess}/tables.less";
+@import "@{bootstrapLess}/forms.less";
+@import "@{bootstrapLess}/buttons.less";
+
+// Components
+@import "@{bootstrapLess}/component-animations.less";
+@import "@{bootstrapLess}/dropdowns.less";
+@import "@{bootstrapLess}/button-groups.less";
+@import "@{bootstrapLess}/input-groups.less";
+@import "@{bootstrapLess}/navs.less";
+@import "@{bootstrapLess}/navbar.less";
+@import "@{bootstrapLess}/breadcrumbs.less";
+@import "@{bootstrapLess}/pagination.less";
+@import "@{bootstrapLess}/pager.less";
+@import "@{bootstrapLess}/labels.less";
+@import "@{bootstrapLess}/badges.less";
+@import "@{bootstrapLess}/jumbotron.less";
+@import "@{bootstrapLess}/thumbnails.less";
+@import "@{bootstrapLess}/alerts.less";
+@import "@{bootstrapLess}/progress-bars.less";
+@import "@{bootstrapLess}/media.less";
+@import "@{bootstrapLess}/list-group.less";
+@import "@{bootstrapLess}/panels.less";
+@import "@{bootstrapLess}/responsive-embed.less";
+@import "@{bootstrapLess}/wells.less";
+@import "@{bootstrapLess}/close.less";
+
+// Components w/ JavaScript
+@import "@{bootstrapLess}/modals.less";
+@import "@{bootstrapLess}/tooltip.less";
+@import "@{bootstrapLess}/popovers.less";
+@import "@{bootstrapLess}/carousel.less";
+
+// Utility classes
+@import "@{bootstrapLess}/utilities.less";
+@import "@{bootstrapLess}/responsive-utilities.less";
+
+
+.table tbody tr td {
+  vertical-align: middle;
+}
+
+.navbar-custom {
+    background-color:#446CB3;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a,
+.navbar-nav > .active > a:hover,
+.navbar-nav > .active > a:focus,
+.nav > .open > a {
+    color: #ffffff;
+    background-color:#59ABE3;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    background-color: #59ABE3;
+}
+
+.carousel-inner > .item > img {
+    margin: 0 auto;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none
+}
+
+#myCarousel{
+
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+.carousel,.item,.active{height:100%;}
+.carousel-inner{height: 400px;}
+
+.date {
+  cursor: pointer;
+  color: #337ab7;
+}
+
+.date:hover {
+  text-decoration: underline;
+}
+
+#video {
+   text-align:center;
+}
+
+ul {
+  list-style-type: none;
+}

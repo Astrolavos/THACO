@@ -1,0 +1,15 @@
+{
+  "parser"  : "babel-eslint",
+  "extends" : ["airbnb"],
+  "rules": {
+    "no-constant-condition": 0,
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "no-param-reassign": 0,
+    "global-require": 0,
+    "no-underscore-dangle": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/href-no-hash": 0,
+    "react/prefer-stateless-function": 0,
+    "react/no-string-refs": 0
+  }
+}
