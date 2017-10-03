@@ -9,7 +9,7 @@ THACO is an open source threat analysis console for DNS-based network threat ana
 
 - Paper: [Towards Designing Effective Visualizations for DNS-based Network Threat Analysis](thaco.pdf);
 Rosa Romero-Gómez, Yacin Nadji, and Manos Antonakakis; IEEE VizSec 2017 (Best Paper Award).
-- Slides: Presented at IEEE VizSec 2017 (Phoenix, Arizona (USA)[thaco_slides_VizSec2017.pdf](thaco_slides_VizSec2017.pdf) 
+- Slides: [Towards Designing Effective Visualizations for DNS-based Network Threat Analysis](thaco_slides_VizSec2017.pdf) Presented at IEEE VizSec 2017 (Phoenix, Arizona (USA)) 
 
 ## Demo
 
